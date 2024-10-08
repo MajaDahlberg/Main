@@ -1,0 +1,113 @@
+#big-box {
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin-top: 10px;
+    background-image: url(stenar.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+
+/* --------------------------header--------------------------- */
+header {
+    display: flex;
+    background-color: rgba(115, 210, 204, 0.7);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    color:white;
+    text-shadow: 0px 1px 3px black;
+    text-decoration: none;
+    background-color: rgb(159, 248, 218, 0.3);
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+@font-face {
+    font-family: "dancing script";
+    src: url("Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+#name {
+    font-family: Dancing script;
+    color: white;
+    text-shadow: 0px 1px 3px black;
+    font-size: 40px;
+}
+
+a:hover {
+    background-color: rgba(122, 193, 169, 0.5);
+}
+
+/*--------------------------main--------------------------*/
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: white;
+    text-shadow: 0px 1px 3px black;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+main {
+    background-color: rgba(115, 210, 204, 0.7);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#text {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+img {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+ul {
+    background-color: rgba(115, 210, 204, 0.7);
+    border: 2px solid black;
+    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+/*------------------------------footer-------------------------------*/
+footer {
+    background-color: rgba(115, 210, 204, 0.7);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 1px 3px black;
+}
+
